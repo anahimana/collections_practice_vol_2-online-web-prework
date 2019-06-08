@@ -98,7 +98,7 @@ def organize_schools(arg)
   result = {}
   # result with locations array
   arg.each do |school, loc|
-    loc.each {|key, value| result[value]}
+    loc.each {|key, value| result[value] = []}
     loc.each do |loc_key, name|
       result[name] = []
     end
