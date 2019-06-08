@@ -101,8 +101,8 @@ def organize_schools(arg)
     loc.each do |loc_key, name|
       result[name] = []
     end
-    binding.pry
   end
   
-  result
+  # Operate on result hash
+  # Insert organize by location
 end
