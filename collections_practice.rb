@@ -103,10 +103,5 @@ def organize_schools(arg)
     end
   end
   
-  # Operate on result hash
-  # Insert organize by location
-  
-binding.pry
-  
   result
 end
