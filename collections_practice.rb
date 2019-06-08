@@ -104,7 +104,9 @@ def organize_schools(arg)
   end
   
   # Operate on result hash
-  # Insert organize
+  # Insert organize by location
+  
+  
   
   result
 end
