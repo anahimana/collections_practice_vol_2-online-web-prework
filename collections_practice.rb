@@ -102,6 +102,5 @@ def organize_schools(arg)
     end
   end
   
-  
   result
 end
