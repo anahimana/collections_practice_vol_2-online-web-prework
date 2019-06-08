@@ -96,20 +96,17 @@ end
 
 def organize_schools(arg)
   result = {}
-  arg.values.each {|key, value| result[value] = []}
-  
   # result with locations array
-  # arg.each do |school, loc|
-    
-    # loc.each do |loc_key, name|
-    #   result[name] = []
-    # end
-  # end
+  arg.each do |school, loc|
+    loc.each do |loc_key, name|
+      result[name] = []
+    end
+  end
   
   # Operate on result hash
   # Insert organize by location
   
-  binding.pry
+binding.pry
   
   result
 end
