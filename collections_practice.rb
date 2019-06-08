@@ -105,5 +105,11 @@ def organize_schools(arg)
   
   # Operate on result hash
   # Insert organize by location
+    # result with locations array
+  arg.each do |school, loc|
+    loc.each do |loc_key, name|
+      result[name] = []
+    end
+  end
   
 end
