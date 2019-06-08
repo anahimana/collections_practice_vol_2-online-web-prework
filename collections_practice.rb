@@ -111,5 +111,5 @@ def organize_schools(arg)
       result[name] << school
     end
   end
-  
+  result
 end
