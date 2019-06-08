@@ -103,6 +103,8 @@ def organize_schools(arg)
     end
   end
   
+  # Operate on result hash
+  # Insert schools
   
   result
 end
