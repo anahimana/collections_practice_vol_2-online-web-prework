@@ -101,6 +101,7 @@ def organize_schools(arg)
     loc.each do |loc_key, name|
       result[name] = []
     end
+    binding.pry
   end
   
   result
